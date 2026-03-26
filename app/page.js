@@ -1,3 +1,4 @@
+import ContactForm from "@/components/contact-from";
 import dbConnect from "@/lib/db";
 import Image from "next/image";
 
@@ -12,7 +13,6 @@ export default async function Home() {
               Contact form with MongoDb and revalidation
             </p>
           </div>
-          ////
           <ContactForm />
         </div>
       </main>
